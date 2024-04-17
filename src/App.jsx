@@ -1,11 +1,18 @@
-import { useState } from "react";
 import "./App.css";
+import { Grid } from "./componets/Grid";
 
 function App() {
   return (
     <>
-      <div id="test" className="font-bold text-white bg-black text-3xl">
-        hello
+      <div
+        id="main-body"
+        className="flex justify-center items-center w-full h-full"
+      >
+        <section id="grid-body" className="">
+          {/* <Grid /> */}
+
+          
+        </section>
       </div>
     </>
   );
